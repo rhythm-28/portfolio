@@ -12,7 +12,6 @@ function Home() {
       {/* <Projects />
       <Experience />
       <Skills /> */}
-      <Footer />
     </div>
   );
 }

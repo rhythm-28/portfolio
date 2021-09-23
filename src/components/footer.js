@@ -10,17 +10,17 @@ import {
   ListItemText,
   Box,
 } from "@mui/material";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ArchiveIcon from "@mui/icons-material/Archive";
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
+
 import "../stylesheets/footer.css";
 
-function Footer() {
+function Footer(props) {
 
-  const [value, setValue] = useState(0);
+  const {current,setCurrent} = props;
+
+  const [value, setValue] = useState("home");
   const ref = useRef(null);
 
   useEffect(() => {
@@ -33,21 +33,25 @@ function Footer() {
         <Paper
           sx={{ position: "fixed", bottom: 0, left: 0, right: 0 }}
           elevation={3}
+         
         >
           <BottomNavigation
             showLabels
             value={value}
             onChange={(event, newValue) => {
+            console.log("id",event);
               setValue(newValue);
+              setCurrent(newValue);
+              document.getElementById(event.target.id)?.classList.add("colourChange");
             }}
+            style={{backgroundColor: 'black',color: 'white'}}
           >
-            <BottomNavigationAction label="Home" icon={<HomeIcon />} />
-            <BottomNavigationAction label="About" icon={<InfoIcon />} />
-            <BottomNavigationAction label="Contact" icon={<PermContactCalendarIcon />} />
+            <BottomNavigationAction id="1" style={current==="home" ? {color: '#1976d2'} : {color:'white'}} value="home" label="Home" icon={<HomeIcon />} />
+            <BottomNavigationAction id="2" style={current==="about" ? {color: '#1976d2'} : {color:'white'}} value="about" label="About" icon={<InfoIcon />} />
+            <BottomNavigationAction id="3" style={current==="contact" ? {color: '#1976d2'} : {color:'white'}} value="contact" label="Contact" icon={<PermContactCalendarIcon />} />
           </BottomNavigation>
         </Paper>
       </Box>
-      ); }
     </div>
   );
 }

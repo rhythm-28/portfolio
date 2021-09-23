@@ -3,7 +3,7 @@ import '../../stylesheets/about.css';
 function About() {
   return (
     <div>
-      about page
+      <h1>This is About page.</h1>
     </div>
   );
 }
