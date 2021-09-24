@@ -1,3 +1,5 @@
+/* SHORT BIO */
+
 .shortBio {
   display: flex;
   justify-content: center;
@@ -11,13 +13,64 @@
 }
 
 .myImg {
-  width: 100%;
-  max-width: 350px;
+  width: 80%;
+  max-width: 300px;
   height: auto;
   border-radius: 50%;
+  margin: 0 10%;
 }
 
 .briefIntro {
   margin-top: 5vh;
-  max-width: 700px;
+  max-width: 500px;
+}
+
+/* PROJECTS */
+
+.projectsHead {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+.project {
+  margin: 4%;
+  padding: 0;
+}
+
+.projectButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectBody {
+  background-color: black;
+  color: white;
+}
+
+.projectImages {
+  height: 40vh;
+}
+
+.techUsed {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.techUsed span {
+  border: 1px solid white;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 696px) {
+  .projectsHead {
+    text-align: center;
+    color: white;
+    margin: 15% 0;
+  }
+
+  .project {
+    margin: 0 0 10% 0;
+  }
 }

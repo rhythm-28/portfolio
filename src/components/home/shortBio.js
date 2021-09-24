@@ -3,7 +3,7 @@ import me from "../../images/me.jpg";
 
 function ShortBio() {
   return (
-    <div>
+    <div style={{color: 'white'}}>
       <div className="container shortBio">
         <div>
           <h2 className="greeting">Hey! I am Rhythm Bhatia.</h2>
@@ -11,10 +11,9 @@ function ShortBio() {
         </div>
       </div>
       <p className="container briefIntro">
-        I am a full-stack web developer. I am passionate about creating simple,
-        responsive, and seamless online experiences that people love to visit
-        again and again. Currently, I am an undergraduate, majoring in
-        Information Technology.
+        A full-stack web developer. I am passionate about creating simple,
+        responsive, and seamless online experiences. I am an undergraduate,
+        majoring in Information Technology.
       </p>
     </div>
   );

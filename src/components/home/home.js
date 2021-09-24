@@ -9,8 +9,8 @@ function Home() {
   return (
     <div>
       <ShortBio />
-      {/* <Projects />
-      <Experience />
+      <Projects />
+      {/* <Experience />
       <Skills /> */}
     </div>
   );
