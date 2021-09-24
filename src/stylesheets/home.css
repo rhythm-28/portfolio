@@ -30,17 +30,38 @@
 .projectsHead {
   text-align: center;
   color: white;
-  margin-top: 5%;
+  margin: 7vh auto 7vh auto;
+}
+
+.allProjects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectWrapperDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
 }
 
 .project {
-  margin: 4%;
   padding: 0;
 }
 
 .projectButtons {
   display: flex;
   justify-content: space-between;
+}
+
+.projectButtons a {
+  background-color:#FF5722; 
+  border:none;
+  /* color: black; */
+}
+
+.projectTitle
+{
+  color: #FF5722;
 }
 
 .projectBody {
@@ -50,6 +71,11 @@
 
 .projectImages {
   height: 40vh;
+}
+
+.techUsedHead
+{
+  color: #EDEBCA;
 }
 
 .techUsed {
@@ -64,13 +90,14 @@
 }
 
 @media screen and (max-width: 696px) {
+  .allProjects {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
   .projectsHead {
     text-align: center;
     color: white;
-    margin: 15% 0;
-  }
-
-  .project {
-    margin: 0 0 10% 0;
   }
 }
