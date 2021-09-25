@@ -20,7 +20,7 @@ function Projects() {
       <h1 className="projectsHead">Personal Projects</h1>
       <div className="allProjects">
         <div className="projectWrapperDiv">
-          <div className="card project" style={{ width: "18rem" }}>
+          <div className="card project">
             <Carousel
               img1={homeSaveMore}
               img2={signupSaveMore}
@@ -37,8 +37,12 @@ function Projects() {
               <div className="techUsed">
                 <span>React.js</span>
                 <span>Material-UI</span>
-                <span>Bootstrap</span>
                 <span>Razorpay</span>
+              </div>
+              <div className="techUsed">
+                <span>Bootstrap</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -59,7 +63,7 @@ function Projects() {
         </div>
 
         <div className="projectWrapperDiv">
-          <div className="card project" style={{ width: "18rem" }}>
+          <div className="card project">
             <Carousel
               img1={homeCamouflaged}
               img2={home2Camouflaged}
@@ -70,14 +74,19 @@ function Projects() {
               <h4 className="card-title projectTitle">Camouflaged</h4>
               <p className="card-text">
                 A web app used by people to publish their secrets
-                anonymously.wefewfewf
+                anonymously.  
               </p>
+              {/* <br /> */}
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
                 <span>Node.js</span>
                 <span>MongoDB</span>
-                <span>EmbeddedJS</span>
-                <span>Bootstrap</span>
+                <span>Express.js</span>
+              </div>
+              <div className="techUsed">
+                <span>Embedded JS</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -98,7 +107,7 @@ function Projects() {
         </div>
 
         <div className="projectWrapperDiv">
-          <div className="card project" style={{ width: "18rem" }}>
+          <div className="card project">
             <Carousel
               img1={homeTindog}
               img2={pricingTindog}
@@ -108,7 +117,7 @@ function Projects() {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Tindog</h4>
               <p className="card-text">
-                A completely responsive clone of the user interface of Tinder.
+                A responsive clone of the user interface of Tinder.
                 The catch: it's just for dogs.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
@@ -116,6 +125,9 @@ function Projects() {
                 <span>HTML5</span>
                 <span>CSS3</span>
                 <span>Bootstrap</span>
+              </div>
+              <div className="techUsed">
+                <span>Media Queries</span>
               </div>
               <div className="projectButtons">
                 <a

@@ -37,15 +37,6 @@ function Footer(props) {
             style={{ backgroundColor: "black", color: "white" }}
           >
             <BottomNavigationAction
-              id="1"
-              style={
-                current === "home" ? { color: "#1976d2" } : { color: "white" }
-              }
-              value="home"
-              label="Home"
-              icon={<HomeIcon />}
-            />
-            <BottomNavigationAction
               id="2"
               style={
                 current === "about" ? { color: "#1976d2" } : { color: "white" }
@@ -54,6 +45,16 @@ function Footer(props) {
               label="About"
               icon={<InfoIcon />}
             />
+            <BottomNavigationAction
+              id="1"
+              style={
+                current === "home" ? { color: "#1976d2" } : { color: "white" }
+              }
+              value="home"
+              label="Home"
+              icon={<HomeIcon />}
+            />
+
             <BottomNavigationAction
               id="3"
               style={
