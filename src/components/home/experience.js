@@ -7,7 +7,7 @@ function Experience() {
       <div className="experience container">
         <h1 className="experienceHead">Work Experience</h1>
         <div>
-          <h4>Kylo Apps</h4>
+          <h4 className="company">Kylo Apps</h4>
           <div className="roleAndDuration">
             <h5 className="position">React Developer</h5>
             <h5 className="duration">Aug 2021 - Sep 2021</h5>
