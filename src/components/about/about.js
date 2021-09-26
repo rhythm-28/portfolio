@@ -1,9 +1,12 @@
-import '../../stylesheets/about.css';
+import react from "react";
+import "../../stylesheets/about.css";
 
 function About() {
   return (
     <div>
-      <h1>This is About page.</h1>
+      <div className="about">
+        <h1>This is About page.</h1>
+      </div>
     </div>
   );
 }

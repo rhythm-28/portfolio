@@ -1,3 +1,5 @@
+/* DESKTOP SCREEN */
+
 /* SHORT BIO */
 
 .bio {
@@ -42,7 +44,6 @@
 /* PROJECTS */
 
 .projectsHead {
-  /* text-align: right; */
   color: white;
   margin: 10vh 0 12vh 2.3%;
 }
@@ -114,7 +115,7 @@
 
 .experienceHead {
   text-align: left;
-  margin: 5% 0 3% 0;
+  margin: 7% 0 3% 0;
 }
 .company {
   color: #a5e9e1;
@@ -136,13 +137,14 @@
 
 .experience li {
   font-size: 1.2rem;
+  margin-bottom: 1%;
 }
 
 /* SKILLS */
 
 .skills {
   color: white;
-  margin: 3% 0 0 7%;
+  margin: 3% 0 5% 7%;
 }
 
 .skillsHead {
@@ -159,6 +161,8 @@
   margin: 6% 0 4% 0;
   text-align: center;
 }
+
+/* MOBILE SCREEN */
 
 @media screen and (max-width: 696px) {
   /* SHORT BIO */
@@ -204,7 +208,7 @@
     margin-left: 0;
   }
   .experienceHead {
-    margin: 5% 0 12% 0;
+    margin: 7% 0 12% 0;
   }
   .roleAndDuration {
     width: 100%;
@@ -217,12 +221,13 @@
   }
   .experience li {
     font-size: 0.9rem;
+    margin-bottom: 5%;
   }
 
   /* SKILLS */
 
   .skills {
-    margin: 13% 0 0 0;
+    margin: 13% 0 15% 0;
   }
   .skillsHead {
     margin: 22% 0 10% 0;
