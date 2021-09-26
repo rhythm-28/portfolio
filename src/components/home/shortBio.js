@@ -3,7 +3,7 @@ import me from "../../images/me.jpg";
 
 function ShortBio() {
   return (
-    <div style={{ color: "white" }}>
+    <div>
       <div className="container bioDiv">
         <h2 className="greeting">Hey! I am <span>Rhythm Bhatia</span> !</h2>
         <div className="bio">

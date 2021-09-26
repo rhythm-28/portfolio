@@ -11,7 +11,7 @@ function Home() {
       <ShortBio />
       <Projects />
       <Experience />
-      {/* <Skills /> */}
+      <Skills />
     </div>
   );
 }

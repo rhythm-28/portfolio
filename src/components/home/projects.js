@@ -76,7 +76,6 @@ function Projects() {
                 A web app used by people to publish their secrets
                 anonymously.  
               </p>
-              {/* <br /> */}
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
                 <span>Node.js</span>

@@ -7,17 +7,11 @@
 
 .bioDiv {
   margin-top: 10vh;
+  color: white;
 }
 
 .profileImageDiv {
   padding-right: 5%;
-}
-
-.shortBio {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  margin-top: 6vh;
 }
 
 .greeting {
@@ -48,7 +42,7 @@
 /* PROJECTS */
 
 .projectsHead {
-  text-align: left;
+  /* text-align: right; */
   color: white;
   margin: 10vh 0 12vh 2.3%;
 }
@@ -151,10 +145,20 @@
   margin: 3% 0 0 7%;
 }
 
-/* .skill {
-  width: 400px;
-  height: 150px;
-} */
+.skillsHead {
+  margin: 5.5% 0 1% 0;
+  text-align: center;
+}
+
+.skillItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillSubHeads h4 {
+  margin: 6% 0 4% 0;
+  text-align: center;
+}
 
 @media screen and (max-width: 696px) {
   /* SHORT BIO */
@@ -220,8 +224,10 @@
   .skills {
     margin: 13% 0 0 0;
   }
-  /* .skill {
-    width: 150px;
-    height: 150px;
-  } */
+  .skillsHead {
+    margin: 22% 0 10% 0;
+  }
+  .skillSubHeads h4 {
+    margin: 18% 0 10% 0;
+  }
 }
