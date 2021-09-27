@@ -1,4 +1,136 @@
-.about
-{
-    color: white;
+.about {
+  color: white;
+}
+
+/* LONG BIO */
+
+.longBio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.longBioDiv {
+  margin-top: 10vh;
+}
+
+.longProfileImageDiv {
+  padding-right: 5%;
+}
+
+.greeting {
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.greeting span {
+  color: #ff5722;
+}
+
+.longProfileImageDiv img {
+  width: 400%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 10%;
+}
+
+.longIntro {
+  margin-top: 5vh;
+  max-width: 500px;
+  padding-left: 2.5%;
+  font-size: 1.2rem;
+}
+.education {
+  margin-bottom: 6%;
+  margin-top: 3%;
+}
+.collegeAndBatch {
+  margin-bottom: 1%;
+  color: #388186;
+}
+.college {
+  font-size: 1.3rem;
+  margin-bottom: 3%;
+}
+.batch {
+  font-size: 1.2rem;
+  margin-bottom: 5%;
+}
+
+/* ACHIEVEMENTS */
+
+.achievements {
+  margin-top: 5%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.achievements h3 {
+  margin-left: 2%;
+}
+
+.achievements ul {
+  margin-left: 2%;
+}
+
+.achievements li {
+  margin-bottom: 1%;
+}
+
+/* CODING PROFILES */
+
+.codingProfiles {
+  padding-left: 3.6%;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.codingProfiles div {
+  display: flex;
+}
+
+@media screen and (max-width: 696px) {
+  /* LONG BIO */
+
+  .longBio {
+    flex-direction: column-reverse;
+    margin-top: 15%;
+  }
+  .longBio p {
+    font-size: 0.85rem;
+  }
+  .longBioDiv {
+    margin-top: 7vh;
+  }
+  .longIntro {
+    font-size: 1rem;
+  }
+  .longProfileImageDiv img {
+    width: 80%;
+  }
+  .collegeAndBatch {
+    width: 100%;
+  }
+  .college {
+    font-size: 0.9rem;
+  }
+  .batch {
+    font-size: 0.8rem;
+    margin-bottom: 10%;
+  }
+  /* ACHIEVEMENTS */
+  .achievements {
+    display: flex;
+    flex-direction: column;
+  }
+  .achievements li{
+    font-size: 0.9rem;
+  }
+
+  /* CODING PROFILES */
+  .codingProfiles h5{
+    font-size: 0.9rem;
+  }
 }

@@ -61,6 +61,7 @@
 .project {
   padding: 0;
   width: 20rem;
+  border: none;
 }
 
 .projectTitle {

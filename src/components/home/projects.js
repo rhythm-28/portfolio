@@ -73,8 +73,7 @@ function Projects() {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Camouflaged</h4>
               <p className="card-text">
-                A web app used by people to publish their secrets
-                anonymously.  
+                A web app used by people to publish their secrets anonymously.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
@@ -116,8 +115,8 @@ function Projects() {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Tindog</h4>
               <p className="card-text">
-                A responsive clone of the user interface of Tinder.
-                The catch: it's just for dogs.
+                A responsive clone of the user interface of Tinder. The catch:
+                it's just for dogs.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
