@@ -1,4 +1,37 @@
-.contact
-{
-    color: white;
+.contactHead {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: white;
+}
+
+.social div {
+  display: flex;
+}
+
+.social h4{
+    margin-bottom: 10%;
+}
+
+.emailDiv {
+  padding-left: 5%;
+}
+
+@media screen and (max-width: 696px) {
+  .contactHead {
+    height: 20vh;
+    margin-bottom: 15%;
+  }
+  .contactInfo {
+    margin-bottom: 10%;
+  }
 }
