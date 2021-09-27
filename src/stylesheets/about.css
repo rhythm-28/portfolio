@@ -99,7 +99,7 @@
     margin-top: 15%;
   }
   .longBio p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
   .longBioDiv {
     margin-top: 7vh;
@@ -125,12 +125,18 @@
     display: flex;
     flex-direction: column;
   }
-  .achievements li{
+  .achievements li {
     font-size: 0.9rem;
   }
 
   /* CODING PROFILES */
-  .codingProfiles h5{
+  .codingProfiles {
+    margin-top: 10%;
+  }
+  .codingProfiles h5 {
     font-size: 0.9rem;
+  }
+  .resume {
+    margin-bottom: 5%;
   }
 }
