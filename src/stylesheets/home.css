@@ -17,8 +17,8 @@
 }
 
 .greeting {
-  text-align: center;
   margin-bottom: 6%;
+  margin-left: 2.3%;
 }
 
 .greeting span {
@@ -36,9 +36,9 @@
 .briefIntro {
   margin-top: 5vh;
   max-width: 500px;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-left: 2.5%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* PROJECTS */
@@ -133,7 +133,6 @@
   font-size: 1.3rem;
 }
 .duration {
-  text-decoration: underline;
   font-size: 1.2rem;
 }
 
@@ -151,7 +150,6 @@
 
 .skillsHead {
   margin: 5.5% 0 1% 0;
-  text-align: center;
   color: #ff5722;
 }
 
@@ -162,14 +160,21 @@
 
 .skillSubHeads h4 {
   margin: 6% 0 4% 0;
-  text-align: center;
   color: #a5e9e1;
+}
+
+.skillSubDivs{
+  margin-bottom: 10%;
 }
 
 /* MOBILE SCREEN */
 
 @media screen and (max-width: 696px) {
   /* SHORT BIO */
+  .greeting{
+    text-align: center;
+    margin-left: 0;
+  }
   .bio {
     flex-direction: column-reverse;
     margin-top: 15%;
@@ -189,6 +194,9 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+  }
+  .project{
+    margin-bottom: 15%;
   }
   .projectsHead {
     margin: 7vh auto;

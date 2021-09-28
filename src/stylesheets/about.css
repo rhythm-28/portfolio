@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .about {
   color: white;
 }
@@ -18,9 +21,9 @@
 }
 
 .longGreeting {
-  text-align: center;
   margin-bottom: 6%;
   color: #ff5722;
+  margin-left: 2.5%;
 }
 
 .longProfileImageDiv img {
@@ -38,7 +41,7 @@
 }
 .education {
   margin-bottom: 6%;
-  margin-top: 3%;
+  margin-top: 8%;
   color: #a5e9e1;
 }
 .collegeAndBatch {
@@ -100,6 +103,9 @@
   .longBio {
     flex-direction: column-reverse;
     margin-top: 15%;
+  }
+  .longGreeting {
+    text-align: center;
   }
   .longBio p {
     font-size: 0.9rem;

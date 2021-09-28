@@ -1,10 +1,15 @@
 .contactHead {
   color: white;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   height: 30vh;
   color: #ff5722;
+  margin-left: 6%;
+}
+
+.contactHead h1 {
+  font-size: 3rem;
 }
 
 .contactDiv {
@@ -27,16 +32,23 @@
   padding-left: 5%;
 }
 
-.eMailId{
+.eMailId {
   color: #a5e9e1;
 }
 
 @media screen and (max-width: 696px) {
   .contactHead {
     height: 20vh;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
+    margin-left: 4%;
+  }
+  .contactHead h1 {
+    font-size: 2rem;
   }
   .contactInfo {
     margin-bottom: 9%;
+  }
+  .contactInfo h5{
+    font-size: 1rem;
   }
 }

@@ -6,8 +6,8 @@ import homeSaveMore from "../../images/saveMore/home.PNG";
 import signupSaveMore from "../../images/saveMore/signup.PNG";
 import productSaveMore from "../../images/saveMore/product.PNG";
 
-import homeCamouflaged from "../../images/camouflaged/home.PNG";
-import home2Camouflaged from "../../images/camouflaged/home2.PNG";
+import homeCamouflaged from "../../images/camouflaged/home.jpeg";
+import home2Camouflaged from "../../images/camouflaged/home2.jpeg";
 import composeCamouflaged from "../../images/camouflaged/compose.PNG";
 
 import homeTindog from "../../images/tindog/home.PNG";

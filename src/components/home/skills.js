@@ -37,7 +37,7 @@ function Skills() {
       <div className="container skills">
         <h1 className="skillsHead">My Toolbox</h1>
         <div className="skillSubHeads">
-          <div>
+          <div className="skillSubDivs">
             <h4>Languages</h4>
             <div className="skillItems">
               <Avatar
@@ -62,14 +62,13 @@ function Skills() {
               />
             </div>
           </div>
-          <div>
+          <div className="skillSubDivs">
             <h4>Tech Stack</h4>
             <div className="skillItems">
               <Avatar
                 src={mongoDB}
                 style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
               />
-
               <Avatar
                 src={express}
                 style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
@@ -78,10 +77,10 @@ function Skills() {
                 src={reactIcon}
                 style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
               />
-              <DiNodejs size={viewportWidth > 696 ? 150 : 50} />
+              <DiNodejs size={viewportWidth > 696 ? 110 : 50} />
             </div>
           </div>
-          <div>
+          <div className="skillSubDivs">
             <h4>Other Web Tools</h4>
             <div className="skillItems">
               <Avatar

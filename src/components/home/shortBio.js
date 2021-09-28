@@ -5,7 +5,7 @@ function ShortBio() {
   return (
     <div>
       <div className="container bioDiv">
-        <h2 className="greeting">Hey! I am <span>Rhythm Bhatia</span> !</h2>
+        <h1 className="greeting">Hey! I am <span>Rhythm Bhatia</span> !</h1>
         <div className="bio">
           <div className="briefIntro">
             I am a full-stack web developer and am passionate about creating simple,
