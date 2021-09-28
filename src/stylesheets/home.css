@@ -44,7 +44,7 @@
 /* PROJECTS */
 
 .projectsHead {
-  color: white;
+  color: #ff5722;
   margin: 10vh 0 12vh 2.3%;
 }
 
@@ -117,6 +117,7 @@
 .experienceHead {
   text-align: left;
   margin: 7% 0 3% 0;
+  color: #ff5722;
 }
 .company {
   color: #a5e9e1;
@@ -151,6 +152,7 @@
 .skillsHead {
   margin: 5.5% 0 1% 0;
   text-align: center;
+  color: #ff5722;
 }
 
 .skillItems {
@@ -161,6 +163,7 @@
 .skillSubHeads h4 {
   margin: 6% 0 4% 0;
   text-align: center;
+  color: #a5e9e1;
 }
 
 /* MOBILE SCREEN */

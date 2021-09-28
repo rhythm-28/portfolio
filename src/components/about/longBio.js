@@ -6,7 +6,7 @@ function LongBio() {
   return (
     <div>
       <div className="container longBioDiv">
-        <h2 className="greeting">Hello!</h2>
+        <h2 className="longGreeting">HELLO, THERE!</h2>
         <div className="longBio">
           <div className="longIntro">
             <p>

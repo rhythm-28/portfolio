@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 30vh;
+  color: #ff5722;
 }
 
 .contactDiv {
@@ -24,6 +25,10 @@
 
 .emailDiv {
   padding-left: 5%;
+}
+
+.eMailId{
+  color: #a5e9e1;
 }
 
 @media screen and (max-width: 696px) {

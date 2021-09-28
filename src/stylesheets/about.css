@@ -17,12 +17,9 @@
   padding-right: 5%;
 }
 
-.greeting {
+.longGreeting {
   text-align: center;
   margin-bottom: 6%;
-}
-
-.greeting span {
   color: #ff5722;
 }
 
@@ -42,6 +39,7 @@
 .education {
   margin-bottom: 6%;
   margin-top: 3%;
+  color: #a5e9e1;
 }
 .collegeAndBatch {
   margin-bottom: 1%;
@@ -64,8 +62,9 @@
   margin-bottom: 5%;
 }
 
-.achievements h3 {
-  margin-left: 2%;
+.achievementsHead {
+  color: #a5e9e1;
+  margin-left: 3.5%;
 }
 
 .achievements ul {
@@ -80,6 +79,10 @@
 
 .codingProfiles {
   padding-left: 3.6%;
+}
+
+.codingProfilesHead {
+  color: #a5e9e1;
 }
 
 .profiles {

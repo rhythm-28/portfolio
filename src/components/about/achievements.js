@@ -11,7 +11,7 @@ function Achievements() {
     <div>
       <div className="container achievements">
         <div className="col-md-7">
-          <h3>ACHIEVEMENTS</h3>
+          <h3 className="achievementsHead">ACHIEVEMENTS</h3>
           <br />
           <ul>
             <li>
@@ -45,7 +45,7 @@ function Achievements() {
           </ul>
         </div>
         <div className="codingProfiles col-md-5">
-          <h3>Coding profiles</h3>
+          <h3 className="codingProfilesHead">Coding profiles</h3>
           <br />
           <div className="profiles">
             <div>

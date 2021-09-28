@@ -25,8 +25,8 @@ function Skills() {
     window.innerWidth || 0
   );
   const skillSizedesktop = {
-    width: "150px",
-    height: "150px",
+    width: "100px",
+    height: "100px",
   };
   const skillSizeMobile = {
     width: "50px",
