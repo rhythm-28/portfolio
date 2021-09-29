@@ -19,7 +19,7 @@
 .greeting {
   margin-bottom: 6%;
   margin-left: 2.3%;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .greeting span {
@@ -40,7 +40,7 @@
   padding-top: 5%;
   padding-left: 2.5%;
   font-size: 1.3rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* PROJECTS */
@@ -48,7 +48,7 @@
 .projectsHead {
   color: #ff5722;
   margin: 10vh 0 12vh 2.3%;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .allProjects {
@@ -69,7 +69,7 @@
 
 .projectTitle {
   color: #ff5722;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .projectBody {
@@ -77,8 +77,8 @@
   color: white;
 }
 
-.card-text{
-  font-family: 'Source Sans Pro', sans-serif;
+.card-text {
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
 }
 
@@ -88,14 +88,14 @@
 
 .techUsedHead {
   color: #a5e9e1;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .techUsed {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
 }
 
@@ -112,7 +112,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
 }
 
@@ -132,11 +132,11 @@
   text-align: left;
   margin: 7% 0 3% 0;
   color: #ff5722;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 .company {
   color: #a5e9e1;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
 }
 .roleAndDuration {
@@ -145,7 +145,7 @@
   width: 55%;
   margin-bottom: 1%;
   color: #388186;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 .position {
   font-size: 1.3rem;
@@ -155,9 +155,9 @@
 }
 
 .experience li {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 1%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* SKILLS */
@@ -170,7 +170,7 @@
 .skillsHead {
   margin: 5.5% 0 1% 0;
   color: #ff5722;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .skillItems {
@@ -181,17 +181,18 @@
 .skillSubHeads h4 {
   margin: 6% 0 4% 0;
   color: #a5e9e1;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.skillItems label{
+.skillItems label {
   width: 100%;
   text-align: center;
   margin-top: 1rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
 }
 
-.skillSubDivs{
+.skillSubDivs {
   margin-bottom: 10%;
 }
 
@@ -199,7 +200,7 @@
 
 @media screen and (max-width: 696px) {
   /* SHORT BIO */
-  .greeting{
+  .greeting {
     text-align: center;
     margin-left: 0;
   }
@@ -223,7 +224,7 @@
     justify-content: center;
     margin: 0 auto;
   }
-  .project{
+  .project {
     margin-bottom: 15%;
   }
   .projectsHead {
@@ -260,7 +261,7 @@
     font-size: 0.8rem;
   }
   .experience li {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 5%;
   }
 
@@ -275,7 +276,7 @@
   .skillSubHeads h4 {
     margin: 18% 0 10% 0;
   }
-  .skillItems label{
-    font-size: 0.7rem;
+  .skillItems label {
+    font-size: 1rem;
   }
 }
