@@ -34,7 +34,7 @@ function Footer(props) {
               setValue(newValue);
               setCurrent(newValue);
             }}
-            style={{ backgroundColor: "black", color: "white" }}
+            style={{ backgroundColor: "#212121", color: "white" }}
           >
             <BottomNavigationAction
               id="2"

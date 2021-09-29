@@ -22,11 +22,11 @@ function Contact() {
             </h5>
           </div>
           <div className="col-md-4 emailDiv contactInfo">
-            <h5>Send me an e-mail!</h5>
+            <h4>Send me an e-mail!</h4>
             <h5 className="eMailId">rhythmbhatia28@gmail.com</h5>
           </div>
           <div className="col-md-3 social">
-            <h5>Or connect with me here:</h5>
+            <h4>Or connect with me here:</h4>
             <br />
             <div>
               <Avatar src={linkedIn} /> &nbsp;&nbsp;&nbsp;

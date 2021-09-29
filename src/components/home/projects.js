@@ -47,13 +47,13 @@ function Projects() {
               <div className="projectButtons">
                 <a
                   href="https://github.com/RidamGarg/SaveMore"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Source Code
                 </a>
                 <a
                   href="https://save-more.herokuapp.com/"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Live Demo
                 </a>
@@ -80,18 +80,18 @@ function Projects() {
                 <span>Node.js</span>
                 <span>MongoDB</span>
                 <span>Express.js</span>
-                <span>Embedded JS</span>
+                <span>EmbeddedJS</span>
               </div>
               <div className="projectButtons">
                 <a
                   href="https://github.com/rhythm-28/Camouflaged"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Source Code
                 </a>
                 <a
                   href="https://camouflaged.herokuapp.com/"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Live Demo
                 </a>
@@ -123,13 +123,13 @@ function Projects() {
               <div className="projectButtons">
                 <a
                   href="https://github.com/rhythm-28/TinDog"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Source Code
                 </a>
                 <a
                   href="https://rhythm-28.github.io/TinDog/"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Live Demo
                 </a>
@@ -158,13 +158,13 @@ function Projects() {
               <div className="projectButtons">
                 <a
                   href="https://github.com/rhythm-28/portfolio"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Source Code
                 </a>
                 <a
                   href="https://rhythm-bhatia.netlify.app/"
-                  class="btn btn-primary"
+                  class="btn btn-primary glow-on-hover"
                 >
                   Live Demo
                 </a>
