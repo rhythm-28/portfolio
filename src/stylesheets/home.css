@@ -19,6 +19,7 @@
 .greeting {
   margin-bottom: 6%;
   margin-left: 2.3%;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .greeting span {
@@ -38,7 +39,8 @@
   max-width: 500px;
   padding-top: 5%;
   padding-left: 2.5%;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* PROJECTS */
@@ -46,6 +48,7 @@
 .projectsHead {
   color: #ff5722;
   margin: 10vh 0 12vh 2.3%;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .allProjects {
@@ -66,11 +69,17 @@
 
 .projectTitle {
   color: #ff5722;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .projectBody {
   background-color: black;
   color: white;
+}
+
+.card-text{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 .projectImages {
@@ -79,12 +88,15 @@
 
 .techUsedHead {
   color: #a5e9e1;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .techUsed {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 .techUsed span {
@@ -100,6 +112,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 .projectButtons a {
@@ -118,9 +132,12 @@
   text-align: left;
   margin: 7% 0 3% 0;
   color: #ff5722;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .company {
   color: #a5e9e1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 .roleAndDuration {
   display: flex;
@@ -128,6 +145,7 @@
   width: 55%;
   margin-bottom: 1%;
   color: #388186;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .position {
   font-size: 1.3rem;
@@ -139,6 +157,7 @@
 .experience li {
   font-size: 1.2rem;
   margin-bottom: 1%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* SKILLS */
@@ -151,6 +170,7 @@
 .skillsHead {
   margin: 5.5% 0 1% 0;
   color: #ff5722;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .skillItems {
@@ -161,6 +181,7 @@
 .skillSubHeads h4 {
   margin: 6% 0 4% 0;
   color: #a5e9e1;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .skillSubDivs{

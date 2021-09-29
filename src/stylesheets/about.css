@@ -24,6 +24,7 @@ a{
   margin-bottom: 6%;
   color: #ff5722;
   margin-left: 2.5%;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .longProfileImageDiv img {
@@ -38,19 +39,24 @@ a{
   max-width: 500px;
   padding-left: 2.5%;
   font-size: 1.2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* font-weight: bold; */
 }
 .education {
   margin-bottom: 6%;
-  margin-top: 8%;
+  margin-top: 6%;
   color: #a5e9e1;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .collegeAndBatch {
   margin-bottom: 1%;
   color: #388186;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .college {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 3%;
+  /* width: 130%; */
 }
 .batch {
   font-size: 1.2rem;
@@ -68,6 +74,7 @@ a{
 .achievementsHead {
   color: #a5e9e1;
   margin-left: 3.5%;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .achievements ul {
@@ -76,6 +83,8 @@ a{
 
 .achievements li {
   margin-bottom: 1%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1rem;
 }
 
 /* CODING PROFILES */
@@ -86,6 +95,7 @@ a{
 
 .codingProfilesHead {
   color: #a5e9e1;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .profiles {
@@ -95,6 +105,10 @@ a{
 
 .codingProfiles div {
   display: flex;
+}
+
+.resume h4{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media screen and (max-width: 696px) {

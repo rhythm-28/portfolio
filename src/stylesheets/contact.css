@@ -1,11 +1,11 @@
 .contactHead {
   color: white;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   height: 30vh;
   color: #ff5722;
   margin-left: 6%;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .contactHead h1 {
@@ -18,6 +18,8 @@
   align-items: center;
   height: 50vh;
   color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* font-weight: 600; */
 }
 
 .social div {
@@ -39,7 +41,7 @@
 @media screen and (max-width: 696px) {
   .contactHead {
     height: 20vh;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
     margin-left: 4%;
   }
   .contactHead h1 {

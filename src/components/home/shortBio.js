@@ -5,10 +5,10 @@ function ShortBio() {
   return (
     <div>
       <div className="container bioDiv">
-        <h1 className="greeting">Hey! I am <span>Rhythm Bhatia</span> !</h1>
+        <h1 className="greeting">Hey, I am <span>Rhythm Bhatia</span> !</h1>
         <div className="bio">
           <div className="briefIntro">
-            I am a full-stack web developer and am passionate about creating simple,
+            I am a full-stack web developer who is passionate about creating simple,
             responsive, and seamless online experiences. I am an undergraduate,
             majoring in Information Technology.
           </div>
