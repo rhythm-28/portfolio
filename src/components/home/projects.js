@@ -43,7 +43,6 @@ function Projects() {
                 <span>Material-UI</span>
                 <span>Razorpay</span>
                 <span>Bootstrap</span>
-                <span>CSS 3</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -82,7 +81,6 @@ function Projects() {
                 <span>MongoDB</span>
                 <span>Express.js</span>
                 <span>Embedded JS</span>
-                <span>HTML 5</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -156,8 +154,6 @@ function Projects() {
                 <span>React.js</span>
                 <span>Material-UI</span>
                 <span>Bootstrap</span>
-                <span>CSS 3</span>
-                <span>HTML 5</span>
               </div>
               <div className="projectButtons">
                 <a
