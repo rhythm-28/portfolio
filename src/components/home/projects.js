@@ -14,12 +14,16 @@ import homeTindog from "../../images/tindog/home.PNG";
 import pricingTindog from "../../images/tindog/pricing.PNG";
 import testimonialTindog from "../../images/tindog/testimonial.PNG";
 
+import homePortfolio from "../../images/portfolio/homePortfolio.jpeg";
+import experiencePortfolio from "../../images/portfolio/experiencePortfolio.jpeg";
+import achievementsPortfolio from "../../images/portfolio/achievementsPortfolio.jpeg";
+
 function Projects() {
   return (
     <div className="container">
       <h1 className="projectsHead">Personal Projects</h1>
-      <div className="allProjects">
-        <div className="projectWrapperDiv">
+      <div className="allProjects row">
+        <div className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeSaveMore}
@@ -38,11 +42,8 @@ function Projects() {
                 <span>React.js</span>
                 <span>Material-UI</span>
                 <span>Razorpay</span>
-              </div>
-              <div className="techUsed">
                 <span>Bootstrap</span>
-                <span>HTML5</span>
-                <span>CSS3</span>
+                <span>CSS 3</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -62,7 +63,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projectWrapperDiv">
+        <div className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeCamouflaged}
@@ -80,11 +81,8 @@ function Projects() {
                 <span>Node.js</span>
                 <span>MongoDB</span>
                 <span>Express.js</span>
-              </div>
-              <div className="techUsed">
                 <span>Embedded JS</span>
-                <span>HTML5</span>
-                <span>CSS3</span>
+                <span>HTML 5</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -104,7 +102,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projectWrapperDiv">
+        <div className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeTindog}
@@ -115,17 +113,14 @@ function Projects() {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Tindog</h4>
               <p className="card-text">
-                A responsive clone of the user interface of Tinder. The catch:
-                it's just for dogs.
+                A clone of the user interface of Tinder.
+                But it's just for dogs.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
-                <span>HTML5</span>
-                <span>CSS3</span>
+                <span>HTML 5</span>
+                <span>CSS 3</span>
                 <span>Bootstrap</span>
-              </div>
-              <div className="techUsed">
-                <span>Media Queries</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -136,6 +131,43 @@ function Projects() {
                 </a>
                 <a
                   href="https://rhythm-28.github.io/TinDog/"
+                  class="btn btn-primary"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectWrapperDiv col-md-6">
+          <div className="card project">
+            <Carousel
+              img1={homePortfolio}
+              img2={experiencePortfolio}
+              img3={achievementsPortfolio}
+              id={4}
+            />
+            <div className="card-body projectBody">
+              <h4 className="card-title projectTitle">Portfolio</h4>
+              <p className="card-text">This is my Portfolio website.</p>
+              <h6 className="techUsedHead">Tech Stack:</h6>
+              <div className="techUsed">
+                <span>React.js</span>
+                <span>Material-UI</span>
+                <span>Bootstrap</span>
+                <span>CSS 3</span>
+                <span>HTML 5</span>
+              </div>
+              <div className="projectButtons">
+                <a
+                  href="https://github.com/rhythm-28/portfolio"
+                  class="btn btn-primary"
+                >
+                  Source Code
+                </a>
+                <a
+                  href="https://rhythm-bhatia.netlify.app/"
                   class="btn btn-primary"
                 >
                   Live Demo
