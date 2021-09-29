@@ -184,6 +184,13 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.skillItems label{
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .skillSubDivs{
   margin-bottom: 10%;
 }
@@ -267,5 +274,8 @@
   }
   .skillSubHeads h4 {
     margin: 18% 0 10% 0;
+  }
+  .skillItems label{
+    font-size: 0.7rem;
   }
 }

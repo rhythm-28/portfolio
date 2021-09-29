@@ -40,65 +40,128 @@ function Skills() {
           <div className="skillSubDivs">
             <h4>Languages</h4>
             <div className="skillItems">
-              <Avatar
-                src={cPlusPlus}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={c}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={js}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={html}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={css}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
+              <div>
+                <Avatar
+                  src={cPlusPlus}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>C++</label>
+              </div>
+              <div>
+                <Avatar
+                  src={c}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>C</label>
+              </div>
+              <div>
+                <Avatar
+                  src={js}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>JavaScript</label>
+              </div>
+              <div>
+                <Avatar
+                  src={html}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>HTML 5</label>
+              </div>
+              <div>
+                <Avatar
+                  src={css}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>CSS 3</label>
+              </div>
             </div>
           </div>
           <div className="skillSubDivs">
             <h4>Tech Stack</h4>
             <div className="skillItems">
-              <Avatar
-                src={mongoDB}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={express}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={reactIcon}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <DiNodejs size={viewportWidth > 696 ? 110 : 50} />
+              <div>
+                <Avatar
+                  src={mongoDB}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>MongoDB</label>
+              </div>
+              <div>
+                <Avatar
+                  src={express}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>Express.js</label>
+              </div>
+              <div>
+                <Avatar
+                  src={reactIcon}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>React.js</label>
+              </div>
+              <div>
+                <DiNodejs size={viewportWidth > 696 ? 100 : 50} />
+                <label>Node.js</label>
+              </div>
             </div>
           </div>
           <div className="skillSubDivs">
             <h4>Other Web Tools</h4>
             <div className="skillItems">
-              <Avatar
-                src={bootstrap}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={git}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={materialUi}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
-              <Avatar
-                src={postman}
-                style={viewportWidth > 696 ? skillSizedesktop : skillSizeMobile}
-              />
+              <div>
+                <Avatar
+                  src={bootstrap}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>Bootstrap</label>
+              </div>
+              <div>
+                <Avatar
+                  src={git}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>Git</label>
+              </div>
+              <div>
+                <Avatar
+                  src={materialUi}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>Material-UI</label>
+              </div>
+              <div>
+                <Avatar
+                  src={postman}
+                  style={
+                    viewportWidth > 696 ? skillSizedesktop : skillSizeMobile
+                  }
+                />
+                <label>Postman</label>
+              </div>
             </div>
           </div>
         </div>
