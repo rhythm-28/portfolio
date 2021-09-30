@@ -33,7 +33,7 @@ function Projects(props) {
     <div className="container">
       <h1 className="projectsHead">Personal Projects</h1>
       <div className="allProjects row">
-        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
+        <div data-aos={viewportWidth > 696 && "fade-up"} className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeSaveMore}
