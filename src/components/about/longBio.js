@@ -33,7 +33,7 @@ function LongBio(props) {
               with my dog, Maddy!
             </p>
             <br />
-            <div data-aos={viewportWidth > 696 && "fade-up"} >
+            <div data-aos="fade-up" >
               <h3 className="education">EDUCATION</h3>
               <div className="collegeAndBatch">
                 <h5 className="college">
