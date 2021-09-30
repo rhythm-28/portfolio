@@ -1,3 +1,7 @@
+import react,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import "../../stylesheets/home.css";
 
 import Carousel from "./carousel.js";
@@ -19,11 +23,16 @@ import experiencePortfolio from "../../images/portfolio/experiencePortfolio.jpeg
 import achievementsPortfolio from "../../images/portfolio/achievementsPortfolio.jpeg";
 
 function Projects() {
+  useEffect(()=>{
+    Aos.init({
+      duration: 1400
+    });
+  },[]);
   return (
     <div className="container">
       <h1 className="projectsHead">Personal Projects</h1>
       <div className="allProjects row">
-        <div className="projectWrapperDiv col-md-6">
+        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeSaveMore}
@@ -62,7 +71,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projectWrapperDiv col-md-6">
+        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeCamouflaged}
@@ -100,7 +109,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projectWrapperDiv col-md-6">
+        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeTindog}
@@ -138,7 +147,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projectWrapperDiv col-md-6">
+        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homePortfolio}

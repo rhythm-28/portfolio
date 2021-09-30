@@ -1,3 +1,5 @@
+
+
 import '../../stylesheets/home.css';
 
 import ShortBio from "./shortBio.js";

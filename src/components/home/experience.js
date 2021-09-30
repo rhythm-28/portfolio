@@ -1,10 +1,18 @@
-import react from "react";
+import react,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "../../stylesheets/home.css";
 
 function Experience() {
+  useEffect(()=>{
+    Aos.init({
+      duration: 3000
+    });
+  },[]);
   return (
+    
     <div>
-      <div className="experience container">
+      <div data-aos="flip-up" className="experience container">
         <h1 className="experienceHead">Work Experience</h1>
         <div>
           <h4 className="company">Kylo Apps</h4>

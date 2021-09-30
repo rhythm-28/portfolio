@@ -1,4 +1,6 @@
-import react from "react";
+import react,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Avatar from "@mui/material/Avatar";
 
 import "../../stylesheets/contact.css";
@@ -8,12 +10,17 @@ import github from "../../icons/github.svg";
 import twitter from "../../icons/twitter.svg";
 
 function Contact() {
+  useEffect(()=>{
+    Aos.init({
+      duration: 1000
+    });
+  },[]);
   return (
     <div>
-      <div className="contactHead">
+      <div data-aos="fade-right" className="contactHead">
         <h1>Contact Me</h1>
       </div>
-      <div className="contactDiv container">
+      <div data-aos="fade-left" className="contactDiv container">
         <div className="row">
           <div className="col-md-5 contactInfo">
             <h5>

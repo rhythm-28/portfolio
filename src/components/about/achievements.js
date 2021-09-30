@@ -1,4 +1,6 @@
-import react from "react";
+import react, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Avatar from "@mui/material/Avatar";
 
 import "../../stylesheets/about.css";
@@ -7,10 +9,15 @@ import codeChef from "../../icons/codeChef.jpg";
 import hackerRank from "../../icons/hackerRank.png";
 
 function Achievements() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div>
       <div className="container achievements">
-        <div className="col-md-7">
+        <div data-aos="fade-right" className="col-md-7">
           <h3 className="achievementsHead">ACHIEVEMENTS</h3>
           <br />
           <ul>
@@ -44,7 +51,7 @@ function Achievements() {
             </li>
           </ul>
         </div>
-        <div className="codingProfiles col-md-5">
+        <div data-aos="fade-left" className="codingProfiles col-md-5">
           <h3 className="codingProfilesHead">Coding profiles</h3>
           <br />
           <div className="profiles">

@@ -1,4 +1,6 @@
-import react from "react";
+import react,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Avatar from "@mui/material/Avatar";
 
 import "../../stylesheets/home.css";
@@ -20,6 +22,11 @@ import materialUi from "../../icons/materialUi.svg";
 import postman from "../../icons/postman.svg";
 
 function Skills() {
+  useEffect(()=>{
+    Aos.init({
+      duration: 1000
+    });
+  },[]);
   const viewportWidth = Math.max(
     document.documentElement.clientWidth || 0,
     window.innerWidth || 0
@@ -37,7 +44,7 @@ function Skills() {
       <div className="container skills">
         <h1 className="skillsHead">My Toolbox</h1>
         <div className="skillSubHeads">
-          <div className="skillSubDivs">
+          <div data-aos="fade-left" className="skillSubDivs">
             <h4>Languages</h4>
             <div className="skillItems">
               <div>
@@ -87,7 +94,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="skillSubDivs">
+          <div data-aos="fade-left" className="skillSubDivs">
             <h4>Tech Stack</h4>
             <div className="skillItems">
               <div>
@@ -123,7 +130,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="skillSubDivs">
+          <div data-aos="fade-left" className="skillSubDivs">
             <h4>Other Web Tools</h4>
             <div className="skillItems">
               <div>
