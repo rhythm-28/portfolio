@@ -21,16 +21,13 @@ import git from "../../icons/git.svg";
 import materialUi from "../../icons/materialUi.svg";
 import postman from "../../icons/postman.svg";
 
-function Skills() {
+function Skills(props) {
+  const { viewportWidth } = props;
   useEffect(()=>{
     Aos.init({
       duration: 1000
     });
   },[]);
-  const viewportWidth = Math.max(
-    document.documentElement.clientWidth || 0,
-    window.innerWidth || 0
-  );
   const skillSizedesktop = {
     width: "100px",
     height: "100px",
@@ -44,7 +41,7 @@ function Skills() {
       <div className="container skills">
         <h1 className="skillsHead">My Toolbox</h1>
         <div className="skillSubHeads">
-          <div data-aos="fade-left" className="skillSubDivs">
+          <div data-aos={viewportWidth > 696 && "fade-left"} className="skillSubDivs">
             <h4>Languages</h4>
             <div className="skillItems">
               <div>
@@ -94,7 +91,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" className="skillSubDivs">
+          <div data-aos={viewportWidth > 696 && "fade-left"} className="skillSubDivs">
             <h4>Tech Stack</h4>
             <div className="skillItems">
               <div>
@@ -130,7 +127,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" className="skillSubDivs">
+          <div data-aos={viewportWidth > 696 && "fade-left"} className="skillSubDivs">
             <h4>Other Web Tools</h4>
             <div className="skillItems">
               <div>

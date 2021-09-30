@@ -8,7 +8,8 @@ import "../../stylesheets/about.css";
 import codeChef from "../../icons/codeChef.jpg";
 import hackerRank from "../../icons/hackerRank.png";
 
-function Achievements() {
+function Achievements(props) {
+  const { viewportWidth } = props;
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -17,7 +18,7 @@ function Achievements() {
   return (
     <div>
       <div className="container achievements">
-        <div data-aos="fade-right" className="col-md-7">
+        <div data-aos={viewportWidth > 696 && "fade-right"} className="col-md-7">
           <h3 className="achievementsHead">ACHIEVEMENTS</h3>
           <br />
           <ul>
@@ -51,7 +52,7 @@ function Achievements() {
             </li>
           </ul>
         </div>
-        <div data-aos="fade-left" className="codingProfiles col-md-5">
+        <div data-aos={viewportWidth > 696 && "fade-left"} className="codingProfiles col-md-5">
           <h3 className="codingProfilesHead">Coding profiles</h3>
           <br />
           <div className="profiles">

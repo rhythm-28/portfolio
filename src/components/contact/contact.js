@@ -9,7 +9,8 @@ import linkedIn from "../../icons/linkedIn.png";
 import github from "../../icons/github.svg";
 import twitter from "../../icons/twitter.svg";
 
-function Contact() {
+function Contact(props) {
+  const { viewportWidth } = props;
   useEffect(()=>{
     Aos.init({
       duration: 1000
@@ -17,10 +18,10 @@ function Contact() {
   },[]);
   return (
     <div>
-      <div data-aos="fade-right" className="contactHead">
+      <div data-aos={viewportWidth > 696 && "fade-right"} className="contactHead">
         <h1>Contact Me</h1>
       </div>
-      <div data-aos="fade-left" className="contactDiv container">
+      <div data-aos={viewportWidth > 696 && "fade-left"} className="contactDiv container">
         <div className="row">
           <div className="col-md-5 contactInfo">
             <h5>

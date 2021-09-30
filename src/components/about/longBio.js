@@ -4,7 +4,8 @@ import "aos/dist/aos.css";
 import "../../stylesheets/about.css";
 import bigMe from "../../images/bigMe.jpg";
 
-function LongBio() {
+function LongBio(props) {
+  const { viewportWidth } = props;
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -13,11 +14,11 @@ function LongBio() {
   return (
     <div>
       <div className="container longBioDiv">
-        <h2 data-aos="fade-right" className="longGreeting">
+        <h2 data-aos={viewportWidth > 696 && "fade-right"} className="longGreeting">
           HELLO, THERE!
         </h2>
         <div className="longBio">
-          <div data-aos="fade-right" className="longIntro">
+          <div data-aos={viewportWidth > 696 && "fade-right"} className="longIntro">
             <p>
               I am a full-stack web developer with a keen interest in UI design.
               Also, a self-motivated person who likes to work in high-paced
@@ -32,7 +33,7 @@ function LongBio() {
               with my dog, Maddy!
             </p>
             <br />
-            <div data-aos="fade-up" >
+            <div data-aos={viewportWidth > 696 && "fade-up"} >
               <h3 className="education">EDUCATION</h3>
               <div className="collegeAndBatch">
                 <h5 className="college">
@@ -46,7 +47,7 @@ function LongBio() {
               </p>
             </div>
           </div>
-          <div data-aos="fade-left" className="longProfileImageDiv">
+          <div data-aos={viewportWidth > 696 && "fade-left"} className="longProfileImageDiv">
             <img src={bigMe} alt="My image" />
           </div>
         </div>

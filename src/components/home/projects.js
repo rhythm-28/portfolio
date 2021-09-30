@@ -22,7 +22,8 @@ import homePortfolio from "../../images/portfolio/homePortfolio.jpeg";
 import experiencePortfolio from "../../images/portfolio/experiencePortfolio.jpeg";
 import achievementsPortfolio from "../../images/portfolio/achievementsPortfolio.jpeg";
 
-function Projects() {
+function Projects(props) {
+  const { viewportWidth } = props;
   useEffect(()=>{
     Aos.init({
       duration: 1400
@@ -32,7 +33,7 @@ function Projects() {
     <div className="container">
       <h1 className="projectsHead">Personal Projects</h1>
       <div className="allProjects row">
-        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
+        <div data-aos={viewportWidth > 696 && "fade-up"} className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeSaveMore}
@@ -71,7 +72,7 @@ function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
+        <div data-aos={viewportWidth > 696 && "fade-up"} className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeCamouflaged}
@@ -109,7 +110,7 @@ function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
+        <div data-aos={viewportWidth > 696 && "fade-up"} className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homeTindog}
@@ -147,7 +148,7 @@ function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
+        <div data-aos={viewportWidth > 696 && "fade-up"} className="projectWrapperDiv col-md-6">
           <div className="card project">
             <Carousel
               img1={homePortfolio}
