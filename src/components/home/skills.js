@@ -41,7 +41,7 @@ function Skills(props) {
       <div className="container skills">
         <h1 className="skillsHead">My Toolbox</h1>
         <div className="skillSubHeads">
-          <div data-aos={viewportWidth > 696 && "fade-left"} className="skillSubDivs">
+          <div data-aos={viewportWidth > 696 ? "fade-left" : "fade-up"} className="skillSubDivs">
             <h4>Languages</h4>
             <div className="skillItems">
               <div>
@@ -91,7 +91,7 @@ function Skills(props) {
               </div>
             </div>
           </div>
-          <div data-aos={viewportWidth > 696 && "fade-left"} className="skillSubDivs">
+          <div data-aos={viewportWidth > 696 ? "fade-left" : "fade-up"} className="skillSubDivs">
             <h4>Tech Stack</h4>
             <div className="skillItems">
               <div>
@@ -127,7 +127,7 @@ function Skills(props) {
               </div>
             </div>
           </div>
-          <div data-aos={viewportWidth > 696 && "fade-left"} className="skillSubDivs">
+          <div data-aos={viewportWidth > 696 ? "fade-left" : "fade-up"} className="skillSubDivs">
             <h4>Other Web Tools</h4>
             <div className="skillItems">
               <div>

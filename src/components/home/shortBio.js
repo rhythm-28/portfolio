@@ -15,8 +15,8 @@ function ShortBio(props) {
   return (
     <div>
       <div className="container bioDiv">
-        <h1 data-aos={viewportWidth > 696 && "fade-right"} className="greeting">Hey, I am <span>Rhythm Bhatia</span> !</h1>
-        <div data-aos={viewportWidth > 696 && "fade-left"} className="bio">
+        <h1 data-aos={viewportWidth > 696 ? "fade-right" : "fade-up"} className="greeting">Hey, I am <span>Rhythm Bhatia</span> !</h1>
+        <div data-aos={viewportWidth > 696 ? "fade-left" : "fade-up"} className="bio">
           <div className="briefIntro">
             I am a full-stack web developer who is passionate about creating simple,
             responsive, and seamless online experiences. I am an undergraduate,

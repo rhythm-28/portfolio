@@ -13,7 +13,7 @@ function Experience(props) {
   return (
     
     <div>
-      <div data-aos={viewportWidth > 696 && "flip-up"} className="experience container">
+      <div data-aos="flip-up" className="experience container">
         <h1 className="experienceHead">Work Experience</h1>
         <div>
           <h4 className="company">Kylo Apps</h4>
