@@ -173,7 +173,7 @@ function Projects(props) {
                   Source Code
                 </a>
                 <a
-                  href="https://rhythm-bhatia.netlify.app/"
+                  href="https://www.rhythmbhatia.me/"
                   class="btn btn-primary glow-on-hover"
                 >
                   Live Demo
