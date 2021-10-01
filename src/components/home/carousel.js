@@ -13,15 +13,15 @@ function Carousel(props) {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={img1} className="d-block w-100 projectImages" alt="..." />
+            <img src={img1} className="d-block w-100"  width="190" height="200" alt="..." />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src={img2} className="d-block w-100 projectImages" alt="..." />
+            <img src={img2} className="d-block w-100"  width="190" height="200" alt="..." />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src={img3} className="d-block w-100 projectImages" alt="..." />
+            <img src={img3} className="d-block w-100"  width="190" height="200" alt="..." />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
