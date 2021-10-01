@@ -76,7 +76,7 @@ function Achievements(props) {
           <div className="resume">
             <h4>
               Here is my{" "}
-              <a href="https://drive.google.com/file/d/1P3P5ga37S9QCEJID09cWs6mF6BRW9xHY/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1Pq3DoI0BszOYS5KdL_RMU7EHkgoKCftG/view?usp=sharing">
                 Resume
               </a>
               &nbsp;!
