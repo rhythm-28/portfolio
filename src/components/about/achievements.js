@@ -34,8 +34,7 @@ function Achievements(props) {
             </li>
             <li>
               4 stars on CodeChef with a maximum Rating of{" "}
-              <a href="https://www.codechef.com/users/rhythm_28">1808</a> (3
-              star).
+              <a href="https://www.codechef.com/users/rhythm_28">1808</a>.
             </li>
             <li>
               Secured{" "}
