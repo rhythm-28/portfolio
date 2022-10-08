@@ -25,8 +25,8 @@ function Contact(props) {
         <div className="row">
           <div className="col-md-5 contactInfo">
             <h5>
-              Whether you’re looking to collaborate, talk more about my work or
-              just have a conversation, get in touch.
+              Whether you want to hire me, or are looking to collaborate or just have a 
+              conversation, get in touch.
             </h5>
           </div>
           <div className="col-md-4 emailDiv contactInfo">

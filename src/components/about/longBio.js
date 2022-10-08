@@ -32,7 +32,10 @@ function LongBio(props) {
               When I am not coding, you can find me watching anime or playing
               with my dog, Maddy!
             </p>
-            <br />
+            <p>
+              Currently, looking for full-time SDE roles.
+            </p>
+            
             <div data-aos="fade-up" >
               <h3 className="education">EDUCATION</h3>
               <div className="collegeAndBatch">
@@ -42,7 +45,7 @@ function LongBio(props) {
                 <h5 className="batch">(Aug 2019 - July 2023)</h5>
               </div>
               <p>
-                I am a pre-final year student pursuing my Bachelor's of
+                I am a final year student pursuing my Bachelor's of
                 Technology in Information Technology.
               </p>
             </div>

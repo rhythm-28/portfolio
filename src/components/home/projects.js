@@ -18,9 +18,9 @@ import homeTindog from "../../images/tindog/home.PNG";
 import pricingTindog from "../../images/tindog/pricing.PNG";
 import testimonialTindog from "../../images/tindog/testimonial.PNG";
 
-import homePortfolio from "../../images/portfolio/homePortfolio.jpeg";
-import experiencePortfolio from "../../images/portfolio/experiencePortfolio.jpeg";
-import achievementsPortfolio from "../../images/portfolio/achievementsPortfolio.jpeg";
+import login from "../../images/chatify/login.jpeg";
+import chat from "../../images/chatify/chat.jpeg";
+import group from "../../images/chatify/group.jpeg";
 
 function Projects(props) {
   const { viewportWidth } = props;
@@ -33,7 +33,10 @@ function Projects(props) {
     <div className="container">
       <h1 className="projectsHead">Personal Projects</h1>
       <div className="allProjects row">
-        <div data-aos={viewportWidth > 696 && "fade-up"} className="projectWrapperDiv col-md-6">
+        <div
+          data-aos={viewportWidth > 696 && "fade-up"}
+          className="projectWrapperDiv col-md-6"
+        >
           <div className="card project">
             <Carousel
               img1={homeSaveMore}
@@ -44,15 +47,18 @@ function Projects(props) {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Save More</h4>
               <p className="card-text">
-                An e-commerce site where customers can buy products added by
-                sellers.
+                A full-fledged e-commerce web application with features
+                including user registration, product publishing, add-to-cart,
+                and payment choices. It does CRUD operations on both the buyer
+                and seller panels. Transactions are processed using the Razorpay
+                payment gateway.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
                 <span>React.js</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
                 <span>Material-UI</span>
-                <span>Razorpay</span>
-                <span>Bootstrap</span>
               </div>
               <div className="projectButtons">
                 <a
@@ -74,6 +80,43 @@ function Projects(props) {
 
         <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
           <div className="card project">
+            <Carousel img1={login} img2={chat} img3={group} id={4} />
+            <div className="card-body projectBody">
+              <h4 className="card-title projectTitle">Chatify</h4>
+              <p className="card-text">
+                A web application that enables users to chat in real time with
+                one another. Users can communicate both one-on-one and in
+                groups. It contains features including message alerts, searching
+                for members, creating a group chat, renaming groups, and
+                adding/removing people from groups.
+              </p>
+              <h6 className="techUsedHead">Tech Stack:</h6>
+              <div className="techUsed">
+                <span>Node.js</span>
+                <span>React.js</span>
+                <span>MongoDB</span>
+                <span>Socket.io</span>
+              </div>
+              <div className="projectButtons">
+                <a
+                  href="https://github.com/rhythm-28/Chatify"
+                  class="btn btn-primary glow-on-hover"
+                >
+                  Source Code
+                </a>
+                <a
+                  href="https://rhythm-chatify.herokuapp.com/"
+                  class="btn btn-primary glow-on-hover"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
+          <div className="card project">
             <Carousel
               img1={homeCamouflaged}
               img2={home2Camouflaged}
@@ -83,7 +126,10 @@ function Projects(props) {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Camouflaged</h4>
               <p className="card-text">
-                A web app used by people to publish their secrets anonymously.
+                A web application that caters to the features of a
+                secret-sharing app by posting users’ secrets anonymously. It is
+                utilised by people to disclose secrets without fear of being
+                criticized.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
@@ -121,8 +167,9 @@ function Projects(props) {
             <div className="card-body projectBody">
               <h4 className="card-title projectTitle">Tindog</h4>
               <p className="card-text">
-                A clone of the user interface of Tinder.
-                But it's just for dogs.
+                A clone of the user interface of Tinder. But it's just for dogs.
+                At Tindog, we are here to motivate, empower, and help all pet
+                owners and their pets live a healthier, more fulfilling life.
               </p>
               <h6 className="techUsedHead">Tech Stack:</h6>
               <div className="techUsed">
@@ -139,41 +186,6 @@ function Projects(props) {
                 </a>
                 <a
                   href="https://rhythm-28.github.io/TinDog/"
-                  class="btn btn-primary glow-on-hover"
-                >
-                  Live Demo
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" className="projectWrapperDiv col-md-6">
-          <div className="card project">
-            <Carousel
-              img1={homePortfolio}
-              img2={experiencePortfolio}
-              img3={achievementsPortfolio}
-              id={4}
-            />
-            <div className="card-body projectBody">
-              <h4 className="card-title projectTitle">Portfolio</h4>
-              <p className="card-text">This is my Portfolio website.</p>
-              <h6 className="techUsedHead">Tech Stack:</h6>
-              <div className="techUsed">
-                <span>React.js</span>
-                <span>Material-UI</span>
-                <span>Bootstrap</span>
-              </div>
-              <div className="projectButtons">
-                <a
-                  href="https://github.com/rhythm-28/portfolio"
-                  class="btn btn-primary glow-on-hover"
-                >
-                  Source Code
-                </a>
-                <a
-                  href="https://www.rhythmbhatia.me/"
                   class="btn btn-primary glow-on-hover"
                 >
                   Live Demo

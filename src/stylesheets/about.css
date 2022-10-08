@@ -40,7 +40,7 @@
 }
 .education {
   margin-bottom: 6%;
-  margin-top: 6%;
+  margin-top: 10%;
   color: #a5e9e1;
   font-family: "Merriweather Sans", sans-serif;
 }
@@ -105,7 +105,7 @@ li a {
 
 .profiles {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .codingProfiles div {
@@ -168,4 +168,28 @@ li a {
   .resume {
     margin-bottom: 5%;
   }
+}
+
+a:link {
+  color: #a5e9e1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a5e9e1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }

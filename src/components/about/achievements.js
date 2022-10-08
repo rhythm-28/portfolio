@@ -18,70 +18,99 @@ function Achievements(props) {
   return (
     <div>
       <div className="container achievements">
-        <div data-aos={viewportWidth > 696 ? "fade-right" : "fade-up"} className="col-md-7">
+        <div
+          data-aos={viewportWidth > 696 ? "fade-right" : "fade-up"}
+          className="col-md-7"
+        >
           <h3 className="achievementsHead">ACHIEVEMENTS</h3>
           <br />
           <ul>
             <li>
-              Bagged{" "}
-              <a href="https://codingcompetitions.withgoogle.com/hashcode/certificate/summary/0000000000435809">
-                346
+              Achieved{" "}
+              <a href="https://www.codechef.com/users/rhythm_28">4 stars</a> on
+              CodeChef with a rating of 1810 .
+            </li>
+            <li>
+              Among the <a href="https://leetcode.com/rhythm_28/">top 6%</a> of
+              users on LeetCode with a maximum rating of 1832.
+            </li>
+            <li>
+              Among{" "}
+              <a href="https://drive.google.com/file/d/1_-Xe3uV9ppNnTCvxFFWoag2wq_7yAZ2x/view?usp=sharing">
+                top 30 finalists
               </a>{" "}
-              AIR (World Rank: 1835) in Google Hashcode 2021 out of 7200+ teams.
+              in AthenaHack Hackathon out of 800+ participants.
             </li>
             <li>
-              Secured 782 rank in CodeChef Rated Contest Feb 2021 out of 6100+
-              participants.
-            </li>
-            <li>
-              Top 5% out of 938k people in Linked Skill Assessment of CSS.
-            </li>
-            <li>
-              Maximum Rating on CodeChef:{" "}
-              <a href="https://www.codechef.com/users/rhythm_28">1709</a> (3
-              star).
-            </li>
-            <li>5 stars in Problem Solving on Hacker Rank.</li>
-            <li>5 stars in C++ on Hacker Rank.</li>
-            <li>
-              Reached{" "}
-              <a href="https://www.hackerrank.com/certificates/3c9aa3ade860">
-                Intermediate
+              Secured{" "}
+              <a href="https://drive.google.com/file/d/15AfqhB08tDYfII7Itksti8pTg-PQl0Xj/view?usp=sharing">
+                AIR 346
               </a>{" "}
-              Level in C on Hacker Rank.
+              (World Rank: 1835) in Google Hashcode 2021 out of 7200+ teams.
+            </li>
+            <li>
+              Secured{" "}
+              <a href="https://www.codechef.com/users/rhythm_28">
+                global rank 782
+              </a>{" "}
+              in CodeChef Rated Contest Feb 2021 out of 6100+ participants.
+            </li>
+            <li>
+              Secured{" "}
+              <a href="https://leetcode.com/rhythm_28/">global rank 1477</a> out
+              of 22000+ participants in LeetCode Weekly Contest 313.
+            </li>
+            <li>
+              Secured{" "}
+              <a href="https://leetcode.com/rhythm_28/">global rank 1686</a> out
+              of 25000+ participants in LeetCode Weekly Contest 311.
+            </li>
+            <li>
+              Achieved a maximum rating of{" "}
+              <a href="https://codeforces.com/profile/rhythm_28">1308</a> on
+              Codeforces and solved 200+ problems.
+            </li>
+            <li>
+              Solved <a href="https://leetcode.com/rhythm_28/">500+ problems</a>{" "}
+              on LeetCode
+            </li>
+            <li>
+              Achieved{" "}
+              <a href="https://www.hackerrank.com/rhythm_28?hr_r=1">5 stars</a>{" "}
+              in Problem Solving & C++ on Hacker Rank.
             </li>
           </ul>
         </div>
-        <div data-aos={viewportWidth > 696 ? "fade-left" : "fade-up"} className="codingProfiles col-md-5">
-          <h3 className="codingProfilesHead">Coding profiles</h3>
+        <div
+          data-aos={viewportWidth > 696 ? "fade-left" : "fade-up"}
+          className="codingProfiles col-md-5"
+        >
+          <h3 className="codingProfilesHead">LINKS</h3>
           <br />
-          <div className="profiles">
-            <div>
-              <Avatar src={codeChef} sx={{ width: "40px", height: "40px" }} />{" "}
-              &nbsp;&nbsp;&nbsp;
-              <h5>
-                <a href="https://www.codechef.com/users/rhythm_28">rhythm_28</a>
-              </h5>
-            </div>
-            <div>
-              <Avatar src={hackerRank} sx={{ width: "40px", height: "40px" }} />
-              &nbsp;&nbsp;&nbsp;
-              <h5>
-                <a href="https://www.hackerrank.com/rhythm_28">rhythm_28</a>
-              </h5>
-            </div>
-          </div>
-          <br />
-          <br />
-          <div className="resume">
-            <h4>
-              Here is my{" "}
-              <a href="https://drive.google.com/file/d/1Pq3DoI0BszOYS5KdL_RMU7EHkgoKCftG/view?usp=sharing">
+          <ul>
+            <li>
+              <a href="https://drive.google.com/file/d/1X-nLc_f9wjOrKeqp9xyW7VpmseVzOIqj/view?usp=sharing">
                 Resume
               </a>
-              &nbsp;!
-            </h4>
-          </div>
+            </li>
+            <li>
+              <a href="https://github.com/rhythm-28">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.codechef.com/users/rhythm_28">CodeChef</a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/rhythm_28/">LeetCode</a>
+            </li>
+            <li>
+              <a href="https://codeforces.com/profile/rhythm_28">Codeforces</a>
+            </li>
+            <li>
+              <a href="https://www.hackerrank.com/rhythm_28?hr_r=1">
+                HackerRank
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

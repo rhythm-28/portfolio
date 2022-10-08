@@ -11,10 +11,31 @@ function Experience(props) {
     });
   },[]);
   return (
-    
     <div>
-      <div data-aos="flip-up" className="experience container">
+      <div data-aos="fade-zoom-in" className="experience container">
         <h1 className="experienceHead">Work Experience</h1>
+        <div>
+          <h4 className="company">Shiprocket</h4>
+          <div className="roleAndDuration">
+            <h5 className="position">Sofware Developer</h5>
+            <h5 className="duration">Feb 2022 - May 2022</h5>
+          </div>
+          <ul>
+            <li>
+              Worked on database design and implementation for Shiprocket
+              Checkout.
+            </li>
+            <li>
+              Rebuilt back-end APIs to improve performance and user experience.
+            </li>
+            <li>
+              Using Winston, I created a custom logger that debugs based on the
+              Node Environment.
+            </li>
+            <li>Tech Stack: Node.js, Sails.js, MySQL.</li>
+          </ul>
+        </div>
+        <br></br>
         <div>
           <h4 className="company">Kylo Apps</h4>
           <div className="roleAndDuration">
@@ -23,17 +44,14 @@ function Experience(props) {
           </div>
           <ul>
             <li>
-              Developed front-end of an e-commerce app using React.js from
-              scratch.
+              Created the front-end of an e-commerce app from the ground up.
             </li>
             <li>
-              Integrated Razorpay payment gateway into it and developed multiple
-              routes.
+              Razorpay payment gateway integration and development of various
+              endpoints.
             </li>
-            <li>
-              Also developed the front-end of a legal practice management app
-              using React.js.
-            </li>
+            <li>Developed the front-end of a legal practice management app.</li>
+            <li>Tools used: React.js, Bootstrap.</li>
           </ul>
         </div>
       </div>
