@@ -19,8 +19,8 @@ function ShortBio(props) {
         <div data-aos={viewportWidth > 696 && "fade-left"} className="bio">
           <div className="briefIntro">
             I am a full-stack web developer who is passionate about creating simple,
-            responsive, and seamless online experiences. I am an undergraduate,
-            majoring in Information Technology.
+            responsive, and seamless online experiences. I am currently
+            working as a Technical Associate at the Business Consulting firm ZS.
           </div>
           <div className="profileImageDiv">
             <img src={me} alt="My image" />

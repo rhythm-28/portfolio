@@ -45,8 +45,7 @@ function LongBio(props) {
                 <h5 className="batch">(Aug 2019 - July 2023)</h5>
               </div>
               <p>
-                I am a final year student pursuing my Bachelor's of
-                Technology in Information Technology.
+                I majored in Information Technology here.
               </p>
             </div>
           </div>

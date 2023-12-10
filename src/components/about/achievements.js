@@ -28,11 +28,11 @@ function Achievements(props) {
             <li>
               Achieved{" "}
               <a href="https://www.codechef.com/users/rhythm_28">4 stars</a> on
-              CodeChef with a rating of 1810 .
+              CodeChef with a rating of 1819 .
             </li>
             <li>
-              Among the <a href="https://leetcode.com/rhythm_28/">top 6%</a> of
-              users on LeetCode with a maximum rating of 1832.
+              Among the <a href="https://leetcode.com/rhythm_28/">top 4%</a> of
+              users on LeetCode with a maximum rating of 1928.
             </li>
             <li>
               Among{" "}
@@ -49,35 +49,23 @@ function Achievements(props) {
               (World Rank: 1835) in Google Hashcode 2021 out of 7200+ teams.
             </li>
             <li>
-              Secured{" "}
-              <a href="https://www.codechef.com/users/rhythm_28">
-                global rank 782
-              </a>{" "}
-              in CodeChef Rated Contest Feb 2021 out of 6100+ participants.
+            Secured{" "}
+              <a href="https://leetcode.com/rhythm_28/">global rank 878</a> out
+              of 20,000+ participants in LeetCode Weekly Contest 320.
             </li>
             <li>
               Secured{" "}
               <a href="https://leetcode.com/rhythm_28/">global rank 1477</a> out
-              of 22000+ participants in LeetCode Weekly Contest 313.
+              of 22,000+ participants in LeetCode Weekly Contest 313.
             </li>
             <li>
               Secured{" "}
               <a href="https://leetcode.com/rhythm_28/">global rank 1686</a> out
-              of 25000+ participants in LeetCode Weekly Contest 311.
+              of 25,000+ participants in LeetCode Weekly Contest 311.
             </li>
             <li>
-              Achieved a maximum rating of{" "}
-              <a href="https://codeforces.com/profile/rhythm_28">1308</a> on
-              Codeforces and solved 200+ problems.
-            </li>
-            <li>
-              Solved <a href="https://leetcode.com/rhythm_28/">500+ problems</a>{" "}
+              Solved <a href="https://leetcode.com/rhythm_28/">800+ problems</a>{" "}
               on LeetCode
-            </li>
-            <li>
-              Achieved{" "}
-              <a href="https://www.hackerrank.com/rhythm_28?hr_r=1">5 stars</a>{" "}
-              in Problem Solving & C++ on Hacker Rank.
             </li>
           </ul>
         </div>
